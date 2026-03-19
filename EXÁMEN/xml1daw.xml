@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trabajadores>
+<trabajador1 paro="True">
+    <apellidos y nombre type="String">Galindo Sánchez, África</apellidos y nombre>
+    <Telefono1 type="Int">956448723</Telefono1>
+    <Telefono2 type="Int">633842655</Telefono2>
+    <edad type="Int">18</edad>
+    <Altura type="Float">1.57</Altura>
+    <FechaNacimiento type="Date">2007-07-16</FechaNacimiento>
+        <Direccion>
+        <provincia type="String">Cádiz</provincia>
+        <poblacion type="String">Conil de la Frontera</poblacion>
+        <codigoPostal type="Int">11140</codigoPostal>
+            <DatosCasa>
+                <calle type="String">Carretera Canarias Lobita</calle>
+                <numero type="Int">19</numero>
+            </DatosCasa>
+        </Direccion>
+        <VidaLaboral>
+            <AniosCotizados type="Int">0</AniosCotizados>
+            <PuestosdeTrabajo>
+                <Puesto1 type="String">Camarera</Puesto1>
+                <Puesto2 type="String">Técnica Informática en Prácticas</Puesto2>
+                <Puesto3 type="String">Camarera de Piso (Limpiadora)</Puesto3>
+
+                <Empresa1 despedido="True" type="String">Itaños S.L.</Empresa1>
+                <Empresa2 despedido="True" type="String">Redeo Sistemas y Comunicaciónes</Empresa2>
+                <Empresa3 despedido="False" type="String">Hostal La Fonda</Empresa3>
+
+                <Sede1 type="String">Conil de la Frontera</Sede1>
+                <Sede2 type="String">Vejer de la Frontera</Sede2>
+            </PuestosdeTrabajo>
+        </VidaLaboral>
+</trabajador1>
+
+<trabajador2 paro="False">
+    <apellidos y nombre type="String">Espinosa De los Monteros Conde, Daniel</apellidos y nombre>
+    <Telefono1 type="Int">123456789</Telefono1>
+    <Telefono2 type="Int">955740876</Telefono2>
+    <edad type="Int">20</edad>
+    <Altura type="Float">1.75</Altura>
+    <FechaNacimiento type="Date">2005-08-17</FechaNacimiento>
+        <Direccion>
+        <provincia type="String">Cádiz</provincia>
+        <poblacion type="String">Chiclana de la Frontera</poblacion>
+        <codigoPostal type="Int">1111</codigoPostal>
+            <DatosCasa>
+                <calle type="String">Camino del perejil</calle>
+                <numero type="Int">0</numero>
+            </DatosCasa>
+        </Direccion>
+        <VidaLaboral>
+            <AniosCotizados type="Int">1</AniosCotizados>
+            <PuestosdeTrabajo>
+                <Puesto1 type="String">Repartidor de Glovo</Puesto1>
+                <Puesto2 type="String">Técnico Informático en Prácticas</Puesto2>
+                <Puesto3 type="String">Programador</Puesto3>
+
+                <Empresa1 despedido="True" type="String">Glovo</Empresa1>
+                <Empresa2 despedido="True" type="String">TechGal</Empresa2>
+                <Empresa3 despedido="False" type="String">La Tostá</Empresa3>
+
+                <Sede1 type="String">Chiclana de la Frontera</Sede1>
+                <Sede2 type="String">Cádiz</Sede2>
+
+            </PuestosdeTrabajo>
+        </VidaLaboral>
+</trabajadores>

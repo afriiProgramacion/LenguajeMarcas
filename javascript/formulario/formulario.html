@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Datos personales y sueldo</title>
+    <script type="module" src="formulario.js"></script>
+        <link rel="stylesheet" href="formulario.css">
+</head>
+
+
+<body>
+<div id="contenedor">
+
+    <h1>Formulario con funciones flecha y normales</h1>
+
+        <div id="formulario"
+        <form id="formDatos">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" required /><br /><br />
+
+
+            <label for="apellidos">Apellidos:</label><br />
+            <input type="text" id="apellidos" required /><br /><br />
+
+
+            <label for="ciudad">Ciudad:</label><br />
+            <input type="text" id="ciudad" required /><br /><br />
+
+
+            <label for="comentario">Comentario:</label><br />
+            <textarea id="comentario" required></textarea><br /><br />
+
+
+            <label for="sueldo">Sueldo bruto (€):</label><br />
+            <input type="number" id="sueldo" required /><br /><br />
+
+
+            <label for="impuestos">Impuestos (%):</label><br />
+            <input type="number" id="impuestos" required /><br /><br />
+           
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+
+        <pre id="resultado" class="resultado"></pre>
+</div>
+</body>
+
+
+</html>

@@ -1,0 +1,40 @@
+{
+    "Estudiante1": {
+            "Nombre Completo": {
+                "Nombre": "María",
+                "Apellido": "Fernández"
+            },
+            "Peso": 60,
+            "Fecha Ingreso": "2020-09-01",
+            "Correos Electrónicos": [
+                "maria.fernandez@gmail.com",
+                "mariafersan6@outlook.com"
+            ],
+            "Dirección": {
+                "Población": {
+                    "Provincia": "Sevilla",
+                    "Localidad": "Dos Hermanas"
+                },
+                "Código Postal": "41701",
+                "Calle": "Calle Real",
+                "Número": "123"
+            },
+
+            "Historial": {
+                    "Anios Cursados": 4,
+                    "Asignaturas": {
+                        "Nombre": 
+                        ["Matemáticas", "Lengua", "Inglés", "Historia"],
+                        "Centro Educativo": "Universidad de Sevilla",
+                        "Campus": [
+                            "Los Remedios",
+                            "Alcalá de Guadaíra",
+                            "Sevilla Este"
+                        ],
+                        "Graduado boolean": true
+                        
+                    }
+                }
+
+            }
+    }

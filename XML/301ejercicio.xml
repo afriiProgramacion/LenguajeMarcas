@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viaje>
+    <apellidos>Galindo Sánchez</apellidos>
+    <nombre>África</apellidos>
+    
+    <datos_personales>
+        <correo>africags2007@gmail.com</correo>
+        <dni>292745628B</dni>
+            <telefonos>
+                <fijo>956448723</fijo>
+                <movil>633842655</movil>
+            </telefonos>
+    </datos_personales>
+
+    <ciudad_origen>Conil de la Frontera</ciudad_origen>
+
+    <destino1>
+        <ciudad>New York</ciudad>
+            <hotel>
+                <nombre>4 seasons</nombre>
+                <estrellas>5 estrellas</estrellas>
+                <precio noche="700">Temporada Alta</precio>
+                <precio noche="400">Temporada Baja</precio>
+                <noches>2</noches>
+            </hotel>
+    </destino1>
+
+    <destino2>
+        <ciudad>Madrid</ciudad>
+            <hotel>
+                <nombre>Riu</nombre>
+                <estrellas>5 estrellas</estrellas>
+                <precio noche="300">Temporada Alta</precio>
+                <precio noche="250">Temporada Baja</precio>
+                <noches>2</noches>
+        </hotel>
+    </destino2>
+
+    <gasto_total>650€</gasto_total>
+
+
+
+
+
+
+
+</viaje>

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 600px;
+    margin: auto;
+}
+
+.resultado {
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 200px;
+    width: auto;
+    padding: 10px;
+}
+ 
+.formulario {
+    background-color: beige;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+button {
+    width: 100%;
+    background-color: darkcyan;
+}

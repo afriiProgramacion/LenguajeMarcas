@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Datos personales y sueldo</title>
+    <script type="module" src="js1daw.js"></script>
+        <link rel="stylesheet" href="js1daw.css">
+</head>
+
+
+<body>
+<div class="contenedor">
+    <h1>Formulario con funciones flecha y normales</h1>
+    <div class="formulario">
+        <form id="formDatos">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" required /><br /><br />
+
+
+            <label for="apellidos">Apellidos:</label><br />
+            <input type="text" id="apellidos" required /><br /><br />
+
+
+            <label for="ciudad">Ciudad:</label><br />
+            <input type="text" id="ciudad" required /><br /><br />
+
+
+            <label for="sueldo">Sueldo bruto (€):</label><br />
+            <input type="number" id="sueldo" required /><br /><br />
+
+
+            <label for="impuestos">Impuestos (%):</label><br />
+            <input type="number" id="impuestos" required /><br /><br />
+           
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+        <div class="resultado">
+        <pre id="resultado" class="resultado"></pre>
+        </div>
+
+        <h1>Lista de Tareas</h1>
+    <form id="form-tarea">
+        <input type="text" id="tarea" placeholder="Ingrese una tarea">
+        <button type="submit">Agregar Tarea</button>
+    </form>
+    <table id="lista-tareas"></table>
+</div>
+</body>
+
+
+</html>

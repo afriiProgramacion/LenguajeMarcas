@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jugadores>
+    <Jugador>
+        <Nombre>Carlos García</Nombre>
+        <Apellido>Rodríguez López</Apellido>
+        <Edad>treinta y dos</Edad>
+        <seleccion>
+            <prima>
+                <Elevado>50000.5</Elevado>
+                <Mínimo>1500</Mínimo>
+            </prima>
+        </seleccion>
+        <FechaNacimiento>1991-03-15</FechaNacimiento>
+        <Telefono>685-123456</Telefono>
+        <CódigoPostal>280001</CódigoPostal>
+        <Categoría>Sénior</Categoría>
+        <Direcciones>
+            <Dirección>
+                <Población>Madrid</Población>
+                <Ciudad>Calle Mayor, 15</Ciudad>
+            </Dirección>
+        </Direcciones>
+    </Jugador>
+    <Jugador>
+        <Nombre>María Santos</Nombre>
+        <Categoría>Júnior</Categoría>
+        <Edad>veinticinco</Edad>
+        <Telefono>658123abc</Telefono>
+        <CódigoPostal>46</CódigoPostal>
+        <seleccion>
+            <prima>
+                <Inferior>750.25-</Inferior>
+            </prima>
+        </seleccion>
+        <Direcciones>
+            <Dirección>
+                <Calle>Avenida Libertad, 8</Calle>
+                <Ciudad>Valencia</Ciudad>
+                <Población>España</Población>
+                <Población>Comunidad Valenciana</Población>
+            </Dirección>
+        </Direcciones>
+    </Jugador>
+</Jugadores>

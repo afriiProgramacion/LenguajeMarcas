@@ -1,0 +1,33 @@
+{
+    "Videoteca": {
+        "Titulo": "El viaje Infinito",
+        "Director": {
+            "Nombre Director": "Laura",
+            "Apellido Director": "Méndez"
+
+        },
+    "Precio": 14.95,
+    "Alquiler": {
+        "Nombre Completo": "Claudia Ramírez",
+        "Correo": "claudia.ramirez@example.com",
+        "Fecha Alquiler": "2024-01-12",
+        "Importe": {
+            "Pagado Boolean": true,
+            "Coste Base": 3.0,
+            "recargo": 1.2
+        }
+    },
+    "Alquiler2":
+    {
+        "Nombre Completo": "Javier Moreno",
+        "Correo": "javier.moreno@example.com",
+        "Fecha Alquiler": "2024-01-12",
+        "Importe": {
+            "Pagado Boolean": false,
+            "Coste Base": 3.0,
+            "recargo": 1.2
+        }
+
+    }
+}
+}   

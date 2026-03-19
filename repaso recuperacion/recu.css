@@ -1,0 +1,134 @@
+* {
+    margin: 1;
+    padding: 1;
+}
+
+
+.cabecera {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #212844;
+    font-weight: bold;
+}
+.cabecera p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#principal {
+    font-size: 1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #212844;
+    text-align: left;
+} 
+
+input[type]{
+    border-radius: 3px;
+}
+
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #212844;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main p::first-letter {
+    font-size: 20px;
+    color: red;
+}
+.caja {
+  border: 4px solid #ff5733;   
+  padding: 20px;               
+  background-color: #ffe6d5;   
+}
+
+li {
+    font-weight: bolder;
+}
+li:first-child {
+    color: blue;
+}
+li:nth-child(3) {
+    color: red;
+}
+li:last-child {
+    text-decoration: underline;
+}
+
+table {
+    width: 400px;
+    margin: auto;
+    border-spacing: 5px;
+}
+td {
+    border-spacing: 5px;
+    text-align: center;
+}
+.colorcelda {
+    size: 30px;
+    border: 2px solid  green;
+}
+
+.contenedorflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px auto;
+}
+.item {
+    background: lightblue;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid lightcoral;
+}
+.grande {
+    flex-grow: 3;
+    background: lightgreen;
+}
+.movido {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background: lightpink;
+}
+
+.contenedorgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    width: 700px;
+    margin: 20px auto;
+}
+
+.itemgrid {
+    background: lightcyan;
+    padding: 20px;
+    border: 1px solid #333;
+    text-align: center;
+}
+.fila1 {
+    grid-column: span 4;
+    background: lightyellow;
+}
+.seg1 {
+    grid-column: span 1;
+}
+.seg2 {
+    grid-column: span 2;
+    background: lightgoldenrodyellow;
+}
+.seg3 {
+    grid-column: span 1;
+}
+.oculto {
+    visibility: hidden;
+}

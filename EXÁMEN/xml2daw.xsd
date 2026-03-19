@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     <xs:element name="Jugadores">
+     <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Jugador" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="xs:string" length="10"/>
+                            <xs:elemet name="Apellido" type="xs:normalizedString"/>
+                            <xs:element name="Edad" type="xs:integrer"/>
+                            <xs:element name="seleccion">
+                    <xs:element name="prima"/>
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="Elevado" type="xs:decimal"/>
+                            <xs:element name="Mínimo" type="xs:decimal"/>
+                            <xs:element name="Inferior" type="xs:decimal" maxLength="2"/>
+                        </xs:choice>
+                    </xs:complexType>
+                    </xs:element>
+                            <xs:element name="FechaNacimiento" type="xs:date" minOccurs="0"/>
+                            <xs:element name="Telefono" type="xs:integrer"/>
+                            <xs:element name="CódigoPostal" type="xs:integrer" maxLength="5"/>
+                            <xs:element name="Categoría" type="xs:string" />
+                            <xs:element name= "Direcciones">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Dirección" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Ciudad" type="xs:string" whiteSpace="preserve"/>
+                                                    <xs:element name="Provincia" type="xs:string"/>
+                                                    <xs:element name="Calle" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>

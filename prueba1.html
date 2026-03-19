@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo actual de JavaScript</title>
+
+
+    <!-- Carga un archivo JavaScript externo llamado "actual.js".
+        type="module" indica que el script usa Módulos ES (ECMAScript Modules),
+        que son la forma actual de organizar y cargar JavaScript.
+        Esta es la forma recomendada hoy en día para incluir JavaScript actual.  -->
+<script>  
+        /* Esta función muestra un mensaje emergente en pantalla
+   utilizando alert(). Se ejecuta cuando la página termina
+   de cargarse gracias al evento DOMContentLoaded. */
+function mostrarSaludo() {
+  alert("¡Hola MUNDO!");
+}
+
+
+/* Esta función se ejecuta cuando el usuario hace clic
+   en el botón. Muestra un mensaje diferente para indicar
+   que el botón ha sido pulsado. */
+function mostrarPulsacion() {
+  alert("¡Has pulsado el botón!");
+}
+
+
+/* Evento DOMContentLoaded
+
+
+   Se activa cuando el navegador ha terminado
+   de construir el DOM (la estructura HTML), pero antes de
+   cargar imágenes u otros recursos pesados.
+
+
+   Es la forma actual y recomendada de asegurarnos de que
+   los elementos HTML existen antes de manipularlos desde JS.
+
+
+   Dentro de este evento:
+   - Llamamos a mostrarSaludo() para mostrar el mensaje inicial.
+   - Seleccionamos el botón mediante querySelector().
+   - Añadimos un manejador de eventos con addEventListener(),
+     que es la forma actual de gestionar eventos en JavaScript. */
+document.addEventListener("DOMContentLoaded", () => {
+  /* Mostrar mensaje de bienvenida al cargar la página */
+  mostrarSaludo();
+  /* Seleccionamos el botón usando su id */
+  const boton = document.querySelector("#btn-saludo");
+  /* Añadimos un evento "click" al botón.
+     Cuando el usuario haga clic, se ejecutará mostrarPulsacion(). */
+  boton.addEventListener("click", mostrarPulsacion);
+});
+</script>
+
+</head>
+
+
+<body>
+    <h1>Incorporación actual de JavaScript</h1>
+    <p> Este es un ejemplo básico para aprender JavaScript actual.</p>
+    <!-- <button>
+           Crea un botón interactivo.
+
+
+           id="btn-saludo":
+            Asigna un identificador único al botón para poder seleccionarlo
+            desde JavaScript mediante document.querySelector("#btn-saludo").
+
+
+           type="button":
+            Especifica que el botón es un botón normal.
+            Si no se indica, algunos navegadores lo interpretan como "submit"
+            dentro de formularios, lo que puede causar comportamientos inesperados.
+
+
+        El texto dentro del botón es lo que verá el usuario.  -->
+    <button id="btn-saludo" type="button"> Hacer clic para ver mensaje </button>
+</body>
+
+
+</html>
+

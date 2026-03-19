@@ -1,0 +1,25 @@
+{
+    "Número de estudiantes": [
+        {
+            "Primaria": "900",
+            "Secundaria": "500",
+            "Formación Profesional": [
+                {
+                    "FPB": "20",
+                    "CFGM": "300",
+                    "CFGS": "500"
+                }
+            ],
+            "Bachillerato": "400"
+        }
+    ],
+    "Nombre del Colegio": "Compañía de María",
+    "Ciudad": [
+        {
+            "Nombre": "San Fernando",
+            "Provincia": "Cádiz",
+            "Código Postal": "11100",
+            "Distancia": "12,6 Km"
+        }
+    ]
+}

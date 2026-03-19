@@ -1,0 +1,46 @@
+{
+    "Cursos": [{
+        "curso": [
+            {
+                "Código": "ABC123",
+                "Nombre": "Programación Web",
+                "Nivel": "medio"
+            }
+        ],
+        "fecha": [
+            {
+                "inicio": "2024-03-01"
+            }
+        ],
+        "profesor": [
+            {
+                "Nombre": "Laura",
+                "Apellido": "Pérez Gómez",
+                "email": "laura@example.com"
+            }
+        ]
+        
+    }
+        
+    ],
+    "Alumnos": [
+        {
+            "Alumno": [
+                {
+                    "Nombre": "Agustín",
+                    "edad": "35",
+                    "telefono": [
+                        "123456789",
+                        "987654321",
+                        "666555444"
+                    ],
+                    "Código Postal": "11010"
+                     
+                }
+            ]
+        }
+    ]
+
+
+
+}

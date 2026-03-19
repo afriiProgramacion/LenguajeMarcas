@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jugadores>
+    <Jugador>
+        <Nombre type="String" length="10">África</Nombre>
+        <Apellido type="normalizedString">Galindo</Apellido>
+        <Edad type="integrer">18</Edad>
+        <seleccion>
+        <prima>
+            <Elevado type="decimal">0.75</Elevado>
+        </prima>
+        </seleccion>
+        <FechaNacimiento type="date">2007-07-16</FechaNacimiento>
+        <Telefono type="integrer">956448723</Telefono>
+        <CódigoPostal type="integrer">11140</CódigoPostal>
+        <Categoría type="String">Delantera</Categoría>
+        <Direcciones>
+            <Dirección>
+                <Ciudad type="String" whiteSpace="preserve">Conil de la Frontera</Ciudad>
+                <Población type="String">Conil de la Frontera</Población>
+                <Calle type="String">Carretera Canarias Lobita</Calle>
+            </Dirección>
+        </Direcciones>
+    </Jugador>
+
+    <Jugador>
+        <Nombre type="String" length="10">Daniel</Nombre>
+        <Apellido type="normalizedString">Espinosa De los Monteros Conde</Apellido>
+        <Edad type="integrer">20</Edad>
+        <seleccion>
+        <prima>
+            <Mínimo type="decimal">0.25</Mínimo>
+        </prima>
+        </seleccion>
+        <FechaNacimiento type="date">2005-08-17</FechaNacimiento>
+        <Telefono type="integrer">123456789</Telefono>
+        <CódigoPostal type="integrer">1111</CódigoPostal>
+        <Categoría type="String">Defensa</Categoría>
+        <Direcciones>
+            <Dirección>
+                <Ciudad type="String" whiteSpace="preserve">Chiclana de la Frontera</Ciudad>
+                <Población type="String">Chiclana de la Frontera</Población>
+                <Calle type="String">Camino del perejil</Calle>
+            </Dirección>
+        </Direcciones>
+    </Jugador>
+</Jugadores>
