@@ -31,6 +31,7 @@
                                                 <xs:sequence>
                                                     <xs:element name="Ciudad" type="xs:string" whiteSpace="preserve"/>
                                                     <xs:element name="Provincia" type="xs:string"/>
+                                                    
                                                     <xs:element name="Calle" type="xs:string"/>
                                                 </xs:sequence>
                                             </xs:complexType>
